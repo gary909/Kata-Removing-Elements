@@ -1,5 +1,9 @@
 function removeEveryOther(arr){
     //your code here
+    for (var i = 1; i <= arr.length; i += 1) {
+        arr.splice(i, 1);
+    }
+    return arr;
 }
 
 console.log(removeEveryOther(['Hello', 'Goodbye', 'Hello Again'])); // ['Hello', 'Hello Again']
