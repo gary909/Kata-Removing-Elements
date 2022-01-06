@@ -1,0 +1,1 @@
+# Kata-Removing-Elements
